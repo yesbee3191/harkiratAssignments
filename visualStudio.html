@@ -1,18 +1,29 @@
 <html>
 <head>
     <style>
+        .container{
+            width: 100%;
+            margin: 0 auto;
+            margin-top: 3vh;
+        }
 
         .topBar {
             background:#1b1b1b;
             color: white;
+        }
+        
+        .left-items {
+            float: left;
+            width: 80%;
         }
 
         .left-items p {
             display: inline-block;
             margin-right: 5px;
             padding: 10px;
-        }  
-        
+            
+        }
+
         .right-items p {
             display: inline-block;
             padding: 10px;
@@ -30,19 +41,21 @@
 </head>
 
     <body>
-        <div class="topBar">
-        <div class="left-items">
-            <p> Microsoft | Visual Studio</p>
-            <p> Developer Tools </p>
-            <p> Downloads </p>
-            <p> Subscription </p>
-            <button class="vsButton"> Free Visual Studio </button>
-        </div>
-        <div class="right-items">
-            <p> All Microsoft </p>
-            <p> Search </p>
-            <p> Sign In</p>
-        </div>
+        <div class="conatiner">
+            <div class="topBar">
+                <div class="left-items">
+                    <p> Microsoft | Visual Studio</p>
+                    <p> Developer Tools </p>
+                    <p> Downloads </p>
+                    <p> Subscription </p>
+                    <button class="vsButton"> Free Visual Studio </button>
+                </div>
+                <div class="right-items">
+                    <p> All Microsoft </p>
+                    <p> Search </p>
+                    <p> Sign In</p>
+                </div>
+            </div>
         </div>
     </body>
 </html>
